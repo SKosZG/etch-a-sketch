@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 80vw;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.cell {
+  height: 100%;
+  width: 100%;
+  border: 1px solid grey;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+
+.greenCell {
+  background-color: green;
+}
